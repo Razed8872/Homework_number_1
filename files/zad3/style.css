@@ -1,0 +1,19 @@
+#pMain {
+    /*font-weight: bold;*/
+    /*font-size: 30px;*/
+}
+.mainBody {
+    background-image: url("https://images.unsplash.com/photo-1502691876148-a84978e59af8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    margin-left: 15vh;
+    width: 60%;
+    background-attachment: fixed;
+}
+
+p {
+    text-indent: 20%;
+}
+
+.paragraph {
+    background-color: rgba(247, 240, 237, 0.9);
+    font-weight: normal;
+}
