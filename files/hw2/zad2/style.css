@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.block {
+
+    width: 100px;
+    height: 100px;
+    background-color: darkmagenta; /* You can change the color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.block:hover {
+    width: 100px;
+    border-radius: 50%;
+    background-color: aquamarine;
+}

@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.block {
+
+    width: 150px;
+    height: 150px;
+    background-color: deepskyblue; /* You can change the color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.rubik {
+    font-family: 'Rubik Pixels', system-ui;
+}
+
+.sedgwick {
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.dancing {
+    font-family: 'Dancing Script', cursive;
+}
+
+.fjalla {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.indie {
+    font-family: 'Indie Flower', cursive;
+}

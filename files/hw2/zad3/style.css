@@ -1,0 +1,55 @@
+.middleWidgets {
+    justify-content: center;
+
+    display: flex;
+}
+.block {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+body {
+    font-family: "Pacifico", cursive;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.mainWidgets {
+    /*width: 99vh;*/
+    width: 104vh;
+    height: 40vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    }
+
+.subWidgets {
+    width: 33vh;
+    height: 33vh;
+    background-color: mediumslateblue; /* You can change the color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.contact {
+    width: 104vh;
+    height: 80vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
