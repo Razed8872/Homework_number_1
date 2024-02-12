@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.list {
+    margin-right: 20px;
+}
+
+.list-block ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul > :nth-child(even) {
+    color: pink;
+}
+
+ul > :nth-child(odd) {
+    font-size: 22px;
+}
+
+ul > :nth-child(n+4):nth-child(2n)::after {
+    content: "!";
+}
+
+ul > :last-child {
+    color: purple;
+}
+
+ul > li {
+    font-size: 16px;
+}
+
+ul > li::first-letter {
+    font-size: 30px;
+    color: red;
+}
